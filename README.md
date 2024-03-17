@@ -1,5 +1,9 @@
 # kafka-redis-error-after-shutdown
 
+⚠️ Not a bug, just found `quarkus.reactive-messaging.kafka.enable-graceful-shutdown-in-dev-and-test-mode=true`
+
+---
+
 Bug reproduction for crashes when shutting down a Quarkus SmallRye Message kafka consumer that uses Redis.
 
 (Quarkus version 3.8.2)
